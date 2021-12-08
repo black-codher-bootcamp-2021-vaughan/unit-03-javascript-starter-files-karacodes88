@@ -62,10 +62,21 @@ console.log(biography(personB));
 console.log(biography(personC));
 console.log(biography(personD));
 
-// 
+function whoIsOlder(personA, personB) {
+    return (
+        " who is Older " +
+        personA.age +
+        " age differences " +
+        personA.age +
+        " person.name is Older than person.name "+
+        personA.age
+    );
+}
 
 
+console.log(whoIsOlder(personA));
 
+console.log(whoIsOlder(personB));
 
 
 
@@ -78,35 +89,29 @@ console.log(biography(personD));
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
-const x = 8;
-const y = 12;
+// const x = 8;
+// const y = 12;
 
-const addition = x * y;
+// const addition = x * y;
 
-const multiply = x * y
+// const multiply = x * y
 
-console.log("multiply: x * y " + multiply);
+// console.log("multiply: x * y " + multiply);
 
-const subtraction = x - y;
+// const subtraction = x - y;
 
-console.log("Subtraction: x - y " + subtraction);
-
-
-
-console.log("multiplication: x * y " + multiply);
-
-const division = x * y;
-
-console.log("Division: x + y " + division);
+// console.log("Subtraction: x - y " + subtraction);
 
 
-const mentors = 35;
-const age = 17;
-const students = 16;
 
-const isAgeLimit =( mentors + students) < age;
+// console.log("multiplication: x * y " + multiply);
 
-console.log('do students reach the age? ' + isAgeLimit);
+// const division = x * y;
+
+// console.log("Division: x + y " + division);
+
+
+
 
 
 
@@ -124,10 +129,45 @@ console.log('do students reach the age? ' + isAgeLimit);
 
 // ****************************************************TASK 3****************************************************
 
+// const mentors = 35;
+// const age = 17;
+// const students = 16;
+
+// const isAgeLimit =( mentors + students) < age;
+
+// console.log('do students reach the age?' + isAgeLimit);
+
+// homework 
 
 
+function calculator (a,b,c) {
+    switch (c) {
+        case '+':
+        return a + b;
 
+        case '-':
+        return a - b;
+        
+        case '/':
+        return a / b;
+        
+        case '*':
+        return a * b;
+        
+        default:
+        return ('enter valid numbers');  
+    }
+}
 
+let addNumbers = calculator(10,2, '+');
+let subtractNumbers = calculator(10,2, '-');
+let multiplyNumbers = calculator(10,2, '*');
+let divideNumbers  = calculator(10,2, '/');
+
+console.log (addNumbers);
+console.log (subtractNumbers);
+console.log (multiplyNumbers);
+console.log (divideNumbers);
 
 
 
