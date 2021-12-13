@@ -1,7 +1,16 @@
 // ****************************************************TASK 1****************************************************
 
+const animals = [ 'turtle', 'fish', 'dolphin', 'whale', 'leopard', 'elephant' ];
 
 
+console.log(animals);
+ 
+// animals.pop();
+console.log (animals);
+
+animals.sort();
+ animals.reverse();
+console.log(animals);
 
 
 
@@ -18,6 +27,29 @@
 
 
 
+
+
+const names = [ 'kara', 'kawther', 'ayobami', 'annie', 'sam', 'becky', 'beyonce', 'naz', 'adele', 'rihanna','ciara'];
+
+names.sort();
+
+console.log (names);
+
+names.reverse();
+
+console.log(names);
+
+// bonus
+
+// const points = [5, 325, 67, 100000, 150];
+// points.sort(function(a,b){return a - b });
+
+// console.log (points);
+
+const points  = [5, 325, 67, 100000, 150];
+points.sort(function(a, b){return b - a});
+
+console.log (points);
 
 
 
