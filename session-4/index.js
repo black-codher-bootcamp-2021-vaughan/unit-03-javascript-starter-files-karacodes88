@@ -89,26 +89,26 @@ console.log(whoIsOlder(personB));
 // ****************************************************TASK 2 - MATHS OPERATORS****************************************************
 // ***Uncomment the code below to begin the task***
 
-// const x = 8;
-// const y = 12;
+const x = 4;
+let y = 6;
 
-// const addition = x * y;
+const addition = x * y;
 
-// const multiply = x * y
+const multiply = x * y
 
-// console.log("multiply: x * y " + multiply);
+console.log("multiply: x * y " + multiply);
 
-// const subtraction = x - y;
+const subtraction = x - y;
 
-// console.log("Subtraction: x - y " + subtraction);
+console.log("Subtraction: x - y " + subtraction);
 
 
 
-// console.log("multiplication: x * y " + multiply);
+console.log("multiplication: x * y " + multiply);
 
-// const division = x * y;
+const division = x * y;
 
-// console.log("Division: x + y " + division);
+console.log("Division: x + y " + division);
 
 
 
